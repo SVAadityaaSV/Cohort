@@ -1,0 +1,119 @@
+body{
+    width:80%;
+    margin:auto;
+}
+.nav{
+    z-index: 10;
+    width: 80%;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    position: fixed;
+    display: block;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+}
+.navpar{
+    width: 33%;
+    display: inline-flex;
+}
+.titleName{
+    font-family: 'Bradley Hand ITC',cursive,sans-serif;
+    font-size: large;
+    font-weight: bold;
+    align-items: center;
+}
+.navpar span{
+    display:inline-block;
+    text-align: center;
+}
+.navpar span a{
+    display:inline-block;
+    padding:5px;
+    text-decoration: none;
+    color:#339AF0;
+    border-radius: 5px;
+}
+.main{
+    z-index: 9;
+    top:5px;
+    padding-top: 80px;
+}
+
+.menu{
+    padding-top:25px;
+    display: inline-block;
+}
+
+.card{
+    display: inline-block;
+    width:250px;
+    border-radius: 14px;
+    box-sizing: border-box;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 10px;
+    background-color: rgba(0,0,0,0.050);
+}
+.forImg{
+    width:100%;
+    position: relative;
+    box-sizing: border-box;
+}
+.card-food{
+    width:100%;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.card-content{
+    width:100%;
+    padding-top : 1px;
+    margin-bottom:5px;   
+}
+
+.pale{
+    background-color: rgba(0,0,0,0.555);
+    opacity: 0.7;
+    position: absolute;
+    bottom: 5px;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+.explore{
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
+
+.explore a{
+    display:inline-block;
+    padding-left:5px;
+    padding-bottom:5px;
+    text-decoration: none;
+    color:white;
+    font-size: large;
+    border-radius: 5px;
+}
+
+.cuisine{
+    color: white;
+    position: absolute;
+    top: 0;
+}
+
+.cuisine span{
+    display:inline-block;
+    padding-left:5px;
+    padding-top:10px;
+    text-decoration: none;
+    color:white;
+    font-size: large;
+    border-radius: 5px;
+}
+
+.srch{
+    background-image: "images/icons8search.gif";
+}

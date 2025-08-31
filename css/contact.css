@@ -1,0 +1,46 @@
+body{
+    width:80%;
+    margin:auto;
+}
+.nav{
+    z-index: 10;
+    width: 80%;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    position: fixed;
+    display: block;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+}
+.navpar{
+    width: 33%;
+    display: inline-block;
+}
+.titleName{
+    font-family: 'Bradley Hand ITC',cursive,sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+.navpar span{
+    display:inline-block;
+    text-align: center;
+}
+.navpar span a{
+    display:inline-block;
+    padding:5px;
+    text-decoration: none;
+    color:#339AF0;
+    border-radius: 5px;
+}
+.main{
+    z-index: 9;
+    top:5px;
+    padding-top: 40px;
+}
+
+.menu{
+    padding-top:25px;
+    display: inline-block;
+}
+
+

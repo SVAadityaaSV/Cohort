@@ -1,0 +1,61 @@
+body{
+box-sizing: border-box;
+}
+.card{
+    width: 250px;
+    border-radius: 14px;
+    padding: 10px;
+    margin: 10px;
+}
+.card h3{
+    border-top:1px solid lightgray;
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 14px;
+}
+.flexbox{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+header{
+border-bottom: 1px solid lightgray;
+}
+.navbar{
+    padding: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logos{
+    height: 22px;
+}
+.srch{
+    height: 30px;
+}
+.search{
+    align-items: center;
+    height: 30px;
+    display: flex;
+}
+.btn{
+    background-color: #5C7CFA;
+    color: white;
+    border: none;
+    border-radius: 14px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.inputs{
+    width: 400px;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 25px;
+    background-color: white;
+    border: 1px solid #5C7CFA;
+}
